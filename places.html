@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favourite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="DX.png" alt="logo" width="180"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="prague.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Prague</h5>
+              <p class="card-text">
+                Prague is the capital of the Czech Republic, stretching along
+                both banks of the Vltava River and known as the City of a
+                Hundred Spires.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B3%D0%B0"
+                class="btn btn-primary"
+                target="_blank"
+                >More info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="kyiw.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kyiv</h5>
+              <p class="card-text">
+                Kyiv is the capital of Ukraine, located on the Dnipro River. The
+                city is known for its monuments of religious architecture and
+                historical museums.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%B5%D0%B2"
+                class="btn btn-primary"
+                target="_blank"
+                >More info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="krakow.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kraków</h5>
+              <p class="card-text">
+                Krakow, a city in southern Poland near the border with the Czech
+                Republic, is known for its well-preserved historic center and
+                Jewish quarter
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%BA%D0%BE%D0%B2"
+                class="btn btn-primary"
+                target="_blank"
+                >More info</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
